@@ -20,18 +20,25 @@ main section:nth-child(even){
   background-color: lightgray;
 }
 
-.container{width: 98%;
+.container{padding: 0 20px;
   max-width: 1100px;
   margin: 0 auto;
-}  
+} 
+
+.bloccoheader{
+  background-color: blue; /*debug*/
+}
 
 .headertop{
   justify-content: space-between;
+  background-color: yellow; /*debug*/
 }
 
 .paragrafo{
   text-align: center;
+  background-color: darkorchid; /*debug*/
 }
+
 
 .buttombutt{  
  align-items: center;
@@ -46,10 +53,12 @@ main section:nth-child(even){
 
 main .sidebar{
   width: 50%;  
+  background-color: lightseagreen; /*debug*/
 }
 
 main .main{
   width: 50%;
+  background-color: pink; /*debug*/
 }
 
 .col .debug .main h2{
@@ -65,16 +74,23 @@ main .mainlast{
   width: 100%;
   justify-content: center;
   text-align: center;  
+  background-color: rgb(18, 180, 12); /*debug*/
+}
+
+.footertot{
+  background-color: rgb(170, 76, 22); /*debug*/
+}
+
+.footertop{
+  justify-content: space-between;  
 }
 
 .footerbot{
   justify-content: space-between;
+  background-color: rgb(176, 204, 50); /*debug*/
 }
 
 .listanav{
   justify-content: space-around;
 }
 
-.footertop{
-  justify-content: space-between;
-}
