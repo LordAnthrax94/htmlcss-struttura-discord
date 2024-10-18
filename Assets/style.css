@@ -100,11 +100,11 @@ main .mainlast{
   background-color: rgb(176, 204, 50); /*debug*/
 }
 
-footer .colfootleft{width: 50%;
+footer .colfootleft{width: 40%;
   background-color: rgb(36, 37, 31); /*debug*/
 }
 
-footer .colfootright{width: 50%;
+footer .colfootright{width: 15%;
   justify-content: center;  
   background-color: rgb(139, 18, 133); /*debug*/
 }
