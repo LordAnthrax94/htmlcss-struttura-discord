@@ -16,6 +16,10 @@ body{
   display: flex;
 }
 
+main section:nth-child(even){
+  background-color: lightgray;
+}
+
 .container{width: 98%;
   max-width: 1100px;
   margin: 0 auto;
@@ -30,7 +34,9 @@ body{
 }
 
 .buttombutt{  
- justify-content: space-evenly;
+ align-items: center;
+ justify-content:  ;
+ 
 }
 
 .col{
@@ -61,11 +67,14 @@ main .mainlast{
   text-align: center;  
 }
 
-
 .footerbot{
   justify-content: space-between;
 }
 
 .listanav{
   justify-content: space-around;
+}
+
+.footertop{
+  justify-content: space-between;
 }
