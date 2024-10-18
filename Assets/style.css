@@ -20,9 +20,10 @@ main section:nth-child(even){
   background-color: lightgray;
 }
 
-.container{padding: 0 20px;
+.container{
+  padding: 0 20px;
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 0 auto;  
 } 
 
 .bloccoheader{
@@ -41,14 +42,14 @@ main section:nth-child(even){
 
 
 .buttombutt{  
- align-items: center;
- justify-content:  ;
- 
+ justify-content: center;
+ display: inline; 
 }
 
 .col{
   padding: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 main .sidebar{
