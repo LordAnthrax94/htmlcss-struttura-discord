@@ -21,12 +21,6 @@ body{
   margin: 0 auto;
 }  
 
-.logo .bttn ul li{
-  list-style: none;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .headertop{
   justify-content: space-between;
 }
@@ -52,7 +46,26 @@ main .main{
   width: 50%;
 }
 
-.col .debug. .main p{
+.col .debug .main h2{
+  text-align: center;
+}
+
+.col .debug .main p{
   justify-content: column;
   text-align: center;
+}
+
+main .mainlast{
+  width: 100%;
+  justify-content: center;
+  text-align: center;  
+}
+
+
+.footerbot{
+  justify-content: space-between;
+}
+
+.listanav{
+  justify-content: space-around;
 }
