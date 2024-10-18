@@ -82,7 +82,17 @@ main .mainlast{
 }
 
 .footertop{
-  justify-content: space-between;  
+
+}
+
+.logo{
+  display: inline;   
+}
+
+.listanav{
+  justify-content: flex-end;
+  flex-wrap: wrap-reverse;
+  
 }
 
 .footerbot{
@@ -90,7 +100,13 @@ main .mainlast{
   background-color: rgb(176, 204, 50); /*debug*/
 }
 
-.listanav{
-  justify-content: space-around;
+footer .colfootleft{width: 50%;
+  background-color: rgb(36, 37, 31); /*debug*/
+}
+
+footer .colfootright{width: 50%;
+  justify-content: center;
+  list-style: none;
+  background-color: rgb(139, 18, 133); /*debug*/
 }
 
