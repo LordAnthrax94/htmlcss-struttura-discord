@@ -91,8 +91,7 @@ main .mainlast{
 
 .listanav{
   justify-content: flex-end;
-  flex-wrap: wrap-reverse;
-  
+  flex-wrap: wrap-reverse;  
 }
 
 .footerbot{
@@ -105,8 +104,11 @@ footer .colfootleft{width: 50%;
 }
 
 footer .colfootright{width: 50%;
-  justify-content: center;
-  list-style: none;
+  justify-content: center;  
   background-color: rgb(139, 18, 133); /*debug*/
+}
+
+footer .colfootright ul li{
+  list-style: none;
 }
 
